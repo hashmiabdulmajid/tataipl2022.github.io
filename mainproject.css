@@ -1,0 +1,353 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+   
+}
+
+
+.navbar {
+    background: linear-gradient(92.04deg, #18184a 24.18%, #19398a 50.95%, #18184a 110.32%);
+    height: 60px;
+    width: 100%;
+
+}
+
+.navbar ul {
+    overflow: auto;
+    text-align: center;
+
+}
+
+.navbar li {
+    float: le;
+    list-style: none;
+    margin: 3px 20px;
+    display: inline-block;
+    padding: 15px 5px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px !;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+
+
+}
+
+.navbar li a:hover {
+    color: dodgerblue;
+}
+
+.div5 {
+    width: 230px;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 30%);
+    padding-top: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 0px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+
+
+
+}
+
+.playerinnercardbox {
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 230px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 30%);
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 0px 0px 10px 10px;
+    height: 100px;
+    line-height: 1.5;
+
+
+
+
+
+}
+
+.aramcocap {
+    width: 230px;
+    border: 1px solid white;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 30%);
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+    padding: 0.2rem 0;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+
+
+}
+
+#div1 ul {
+    list-style: none;
+
+}
+
+#div1 li {
+    display: inline-flex;
+}
+
+#div2 ul {
+    list-style: none;
+}
+
+#div2 li {
+    display: inline-flex;
+
+}
+
+.name {
+    color: #111;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    background: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.numbers {
+    color: #111;
+    font-size: 38px;
+    line-height: 30px;
+    height: 36px;
+    display: block;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.number-title {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #303030;
+    opacity: .7;
+    clear: both;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    height: 30px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #ef4123;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px 10px 5px 35px;
+    padding: 10px 10px 5px 10px;
+    line-height: 1.5;
+}
+
+.teams {
+
+    text-align: center;
+
+}
+
+.teamlogo {
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    
+
+}
+
+#div2 {}
+
+.h3heading {
+    padding: 0px 20px 50px 20px;
+
+    font-size: 23px;
+    line-height: 1.2;
+    margin: 0px 0 20px 0;
+    letter-spacing: .5px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.part11 {
+    width: 320px;
+    height: 400px;
+
+}
+
+.detail {
+    margin: 13px;
+
+
+}
+
+.leaders {
+    text-align: center;
+}
+.foot{
+    background-color: #001D48;
+}
+.ticket{
+    margin-top:50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    height: auto;
+    border-radius: 12px;
+     box-shadow: 0 0 10px #4c84ff;
+}
+.play{
+    float:right;
+    padding-right:70px;
+    
+}
+.appps{
+    border: #fff;
+    background-color:darkslateblue;
+    height: 350px;
+    margin:30px 0px 50px 0px;
+    overflow: auto;
+}
+.pclass{
+    font-size: 23px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Source Sans Pro',sans-serif;
+    line-height: 1.5;
+    padding-left: 40px;
+}
+.apps{
+    padding: 30px 50px 30px 50px;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #19398a;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+.button{
+    justify-content: center;
+    display:inline-flex;
+    padding: 8px;
+    
+}
+.live-buttons{
+    text-align: center;
+    padding-left: 350px;;
+}
+
+
+.ham{
+    color:#fff;
+    text-align: center;
+}
+
